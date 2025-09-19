@@ -1,0 +1,84 @@
+header{
+    width: 100%;
+    height: 150px;
+    background-color: #001b15c5;
+    z-index: 2;
+    position: relative;
+}
+#logotipo{
+    width: 140px;
+    height: 150px;
+    border-radius: 20%;
+    border: solid silver 1px;
+    box-shadow: 2px 2px 2px rgb(108, 120, 236);
+}
+
+header .header-black{
+    background-color: black;
+    height: 40px;
+}
+header #logotipo{
+    position: absolute;
+    top: 20px;
+}
+header nav li {
+    color: white;
+    display: inline-flex;
+    padding-left: 50px;
+    margin-left: 150px;
+}
+header h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 30px;
+    text-decoration: underline;
+    margin-top: 45px;
+}
+#banner{
+    width: 100%;
+    height: 600px;
+    background: url(img/banner-principal.jpg) no-repeat;
+    background-size: 100%;
+    border-bottom: solid 1px black;
+    position: relative;
+    top: -145px;
+}
+h2{
+   position: relative;
+   top: 350px;
+   left: 100px;
+   width: 400px;
+   font-size: 20px;
+   font-family: cursive;
+   text-shadow: 2px 2px 2px silver;
+}
+footer {
+    top: 10px;
+    background-color: #343a40; /* Cor escura para o fundo */
+    color: #ffffff; /* Texto branco */
+}
+footer ul {
+    list-style: none; /* Remove os marcadores */
+    padding: 0; /* Remove o padding padrão */
+    margin: 0;
+    display: flex; /* Coloca os itens em linha */
+    justify-content: center; /* Centraliza os ícones */
+    gap: 20px; /* Espaçamento entre os ícones */
+}
+footer ul li a {
+    color: #ffffff; /* Cor branca nos ícones */
+    font-size: 1.5rem; /* Aumenta o tamanho dos ícones */
+    transition: color 0.3s ease; /* Animação suave */
+}
+footer ul li a:hover {
+    color: #0dcaf0; /* Cor azul clara ao passar o mouse */
+}
+footer #marca{
+    padding-top: 10px;
+}
+
+#cards{
+    align-items: center;
+    justify-content: center;
+}
